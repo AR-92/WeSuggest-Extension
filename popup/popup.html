@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/popup.css">
+</head>
+
+<body>
+    <div class="container ">
+        <img src="../img/icon.png" class="logo" alt="" srcset="">
+        <h2>WeSuggest Settings</h2>
+        <!-- <ul class="menu">
+            <li class="listitem" id="menu_General">General</li>
+        </ul> -->
+
+        <br>
+        <div class="content scrollbar">
+            <div class="info" id="content_General">
+                <div class="toggle-group">
+                    <input type="checkbox" name="on-off-switch" id="on-off-switch9" checked="" tabindex="1">
+                    <label for="on-off-switch9">
+                            <span class="aural">Show:</span> <span style="font-weight: 700;">Dark Mode ?</span><br> 
+                        </label>
+                    <div class="onoffswitch pull-right" aria-hidden="true">
+                        <div class="onoffswitch-label">
+                            <div class="onoffswitch-inner"></div>
+                            <div class="onoffswitch-switch"></div>
+                        </div>
+                    </div>
+                </div>
+                <h4>Search</h4>
+                <div class="toggle-group">
+                    <input type="checkbox" name="on-off-switch" id="on-off-switch1" checked="" tabindex="1">
+                    <label for="on-off-switch1">
+                        <span class="aural">Show:</span> Show google search box ?
+                    </label>
+                    <div class="onoffswitch pull-right" aria-hidden="true">
+                        <div class="onoffswitch-label">
+                            <div class="onoffswitch-inner"></div>
+                            <div class="onoffswitch-switch"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="con_search">
+                    <div class="toggle-group">
+                        <input type="checkbox" name="on-off-switch" id="on-off-switch2" checked="" tabindex="1">
+                        <label for="on-off-switch2">
+                        <span class="aural">Show:</span> Show suggestions ?
+                    </label>
+                        <div class="onoffswitch pull-right" aria-hidden="true">
+                            <div class="onoffswitch-label">
+                                <div class="onoffswitch-inner"></div>
+                                <div class="onoffswitch-switch"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>How many suggestions should be shown from 5 to 100 ?</p>
+                    <input type="range" min="5" max="100" class="range" id="suggestion_range" placeholder="Enter your suggestions range here !">
+                </div>
+                <h4>Time & Date</h4>
+
+                <div class="toggle-group">
+                    <input type="checkbox" name="on-off-switch" id="on-off-switch3" checked="" tabindex="1">
+                    <label for="on-off-switch3">
+                    <span class="aural">Show:</span> Show Time & Date ?
+                </label>
+                    <div class="onoffswitch pull-right" aria-hidden="true">
+                        <div class="onoffswitch-label">
+                            <div class="onoffswitch-inner"></div>
+                            <div class="onoffswitch-switch"></div>
+                        </div>
+                    </div>
+                </div>
+                <h4>Top Sites</h4>
+                <div class="toggle-group">
+                    <input type="checkbox" name="on-off-switch" id="on-off-switch5" checked="" tabindex="1">
+                    <label for="on-off-switch5">
+                        <span class="aural">Show:</span> Show TopSites ?
+                    </label>
+                    <div class="onoffswitch pull-right" aria-hidden="true">
+                        <div class="onoffswitch-label">
+                            <div class="onoffswitch-inner"></div>
+                            <div class="onoffswitch-switch"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="con_topsites">
+
+                    <p>How many Top Sites should be shown from 3 to 10 ?</p>
+                    <input type="range" min="3" max="10" class="range " id="topsites_range" placeholder="Enter your Top sites range here !">
+                </div>
+                <h4>Bookmarks</h4>
+                <div class="toggle-group">
+                    <input type="checkbox" name="on-off-switch" id="on-off-switch4" checked="" tabindex="1">
+                    <label for="on-off-switch4">
+                        <span class="aural">Show:</span> Show bookmarks ?
+                    </label>
+                    <div class="onoffswitch pull-right" aria-hidden="true">
+                        <div class="onoffswitch-label">
+                            <div class="onoffswitch-inner"></div>
+                            <div class="onoffswitch-switch"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="con_bookmarks">
+
+                    <p>How many Bookmarks should be shown from 3 to 100?</p>
+                    <input type="range" min="3" max="100" class="range" id="bookmarks_range" placeholder="Enter your bookmarks range here !">
+                </div>
+                <div id="con_appe">
+
+                    <h4>Apperence</h4>
+                    <p>Number of columns shown from 2 to 6</p>
+                    <input type="range" min="2" max="6" class="range" id="col_range" placeholder="Enter your Top sites range here !">
+
+                </div>
+                <br>
+                <br>
+                <h4>Background</h4>
+                <div class="toggle-group">
+                    <input type="checkbox" name="on-off-switch" id="on-off-switch8" checked="" tabindex="1">
+                    <label for="on-off-switch8">
+                        <span class="aural">Show:</span> Show background animation ?<br> <spain style="color: crimson;">refresh your page after this ! </spain>
+                    </label>
+                    <div class="onoffswitch pull-right" aria-hidden="true">
+                        <div class="onoffswitch-label">
+                            <div class="onoffswitch-inner"></div>
+                            <div class="onoffswitch-switch"></div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h4>Contact Info</h4>
+                <div class="toggle-group">
+                    <input type="checkbox" name="on-off-switch" id="on-off-switch7" checked="" tabindex="1">
+                    <label for="on-off-switch7">
+                        <span class="aural">Show:</span> Show creater's Instagram tag ?
+                    </label>
+                    <div class="onoffswitch pull-right" aria-hidden="true">
+                        <div class="onoffswitch-label">
+                            <div class="onoffswitch-inner"></div>
+                            <div class="onoffswitch-switch"></div>
+                        </div>
+                    </div>
+                </div>
+                <h4>Restore Defaults</h4>
+                <p>This will reset every settings in WeSuggest extention to default like when you first install the WeSuggest !</p>
+                <br>
+                <a class="default" id="defaul_btn"> Yes reset WeSuggest to defaults !</a>
+
+            </div>
+
+        </div>
+        <br>
+        <small class="footer">Have a nice day :)</small>
+        <br>
+        <br>
+    </div>
+</body>
+<script src="../libs/fox.js"></script>
+<script src="../libs/storeObj.js"></script>
+<script src="./popup.js"></script>
+
+</html>
